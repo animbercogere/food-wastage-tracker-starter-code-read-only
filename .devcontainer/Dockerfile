@@ -1,3 +1,3 @@
 FROM mshafae/tusk-jammy
-# RUN apt-get install -y libasio-dev
+RUN apt update && apt install -y libasio-dev
 
